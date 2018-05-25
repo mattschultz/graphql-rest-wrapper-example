@@ -1,0 +1,13 @@
+{
+  "name": "graphql-rest-wrapper-example",
+  "license": "MIT",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "fetch-mock": "^6.4.2",
+    "graphql-yoga": "^1.14.2",
+    "node-fetch": "^2.1.2"
+  }
+}
