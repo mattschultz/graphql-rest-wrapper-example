@@ -55,12 +55,10 @@ const resolvers = {
   Query: {
     async vehicles() {
       const cars = await fetch('https://example.com/cars')
-        .then(res => res.json())
-        .then(json => json);
+        .then(res => res.json());
 
       const trucks = await fetch('https://example.com/trucks')
-        .then(res => res.json())
-        .then(json => json);
+        .then(res => res.json());
 
       return cars.concat(trucks);
     }
